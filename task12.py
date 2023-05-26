@@ -6,7 +6,9 @@
 4 4 -> 2 2
 5 6 -> 2 3
 '''
-namber_x=2
-namber_y=2
-sum_nam=namber_x+namber_y
-multip_nam=namber_x*namber_y
+sum_nam=int(input('Введите сумму '))
+mul_nam=int(input('Введите произведение '))
+for i in range(sum_nam):
+    for j in range(mul_nam):
+        if sum_nam==i+j and mul_nam==i*j:
+            print(i,j)
